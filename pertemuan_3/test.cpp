@@ -97,6 +97,7 @@ main(){
         cout << "Ganjil" << endl;
     }
 
+    // Ternary Operator => kalo true kode setelah tanda ? dijalankan, kalo false kode setelah : akan dijalankan
     string checkNum = (nilai % 2 == 0) ? "Genap" : "Ganjil";
     cout << nilai << " adalah bilangan " << checkNum << endl;
     
